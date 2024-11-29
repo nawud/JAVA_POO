@@ -13,6 +13,10 @@ public class Characters {
         this.race = race;
     }
 
+    public String ingrese() {
+        return "Personaje: "+this.name+ "Su poder es de: "+this.power+ "Origen: "+this.world+ "Raza "+this.race;
+    }
+
     public String getName() {
         return name;
     }
