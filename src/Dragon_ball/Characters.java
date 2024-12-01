@@ -14,7 +14,7 @@ public class Characters {
     }
 
     public String ingrese() {
-        return "Personaje: "+this.name+ "Su poder es de: "+this.power+ "Origen: "+this.world+ "Raza "+this.race;
+        return "Personaje: " + this.name + " Su poder es de: " + this.power + " Origen: " + this.world + " Raza " + this.race;
     }
 
     public String getName() {
@@ -48,7 +48,5 @@ public class Characters {
     public void setRace(String race) {
         this.race = race;
     }
-
-
 }
 
