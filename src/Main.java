@@ -1,9 +1,9 @@
 import Dragon_ball.Characters;
 import Dragon_ball.NamakianFighter;
 import Dragon_ball.SaiyanFighter;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
         Characters characters1 = new Characters("Goku", 100000000, "Vegita", "Saiyajin");
@@ -23,7 +23,10 @@ public class Main {
         NamakianFighter piccolo = new NamakianFighter("Piccolo", 500000, "Namek", "Namekiano", "Makankosappo");
 
         goku.useSpecialAttack();
+        goku.transform();
         vegeta.useSpecialAttack();
+        vegeta.transform();
         piccolo.useSpecialAttack();
+        piccolo.transform();
     }
 }

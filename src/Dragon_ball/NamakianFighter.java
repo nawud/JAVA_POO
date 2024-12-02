@@ -1,6 +1,8 @@
 package Dragon_ball;
 
-public class NamakianFighter extends Fighter {
+import Interface.Transformation;
+
+public class NamakianFighter extends Fighter implements Transformation {
     public NamakianFighter(String name, long power, String world, String race, String specialAttack) {
         super(name, power, world, race, specialAttack);
     }
@@ -8,5 +10,10 @@ public class NamakianFighter extends Fighter {
     @Override
     public void useSpecialAttack() {
         System.out.println(this.getName() + " usa su ataque especial: " + this.getSpecialAttack());
+    }
+
+    @Override
+    public void transform() {
+        System.out.println(this.getName() + " se transforma en un Namekiano de élite.");
     }
 }
